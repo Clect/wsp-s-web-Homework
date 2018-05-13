@@ -12,8 +12,10 @@
   <body>
     <div class="container">
       <h1>Order Page</h1>
-      <h2>Personal information</h2>
       <form>
+        <h2>Personal information</h2>
+        <p>Please write your personal information.</p>
+        <h3>Billing Information:</h3>
         <div class="form-group">
           <label for="first-name">First Name:</label>
           <input type="name" class="form-control" id="first-name" placeholder="First Name" />
@@ -21,6 +23,10 @@
         <div class="form-group">
           <label for="last-name">Last Name:</label>
           <input type="name" class="form-control" id="last-name" placeholder="Last Name" />
+        </div>
+        <div class="form-group">
+          <label for="birthday">birthday:</label>
+          <input type="date" name="birthday" class="form-control" id="birthday" />
         </div>
         <div class="form-group">
           <label for="email">Email:</label>
@@ -31,10 +37,38 @@
           <input type="phone" class="form-control" id="phoneNumber" placeholder="Phone Number">
         </div>
         <div class="form-group">
-          <label for="phoneNumber">Phone Number:</label>
-          <input type="phone" class="form-control" id="phoneNumber" placeholder="Phone Number">
+          <label for="Address">Address:</label>
+          <input type="address" class="form-control" id="address" placeholder="Address">
         </div>
+        <h3>Shipping Information:</h3>
+        <div class="form-group">
+            <label for="first-name">First Name:</label>
+            <input type="name" class="form-control" id="first-name" placeholder="First Name" />
+          </div>
+          <div class="form-group">
+            <label for="last-name">Last Name:</label>
+            <input type="name" class="form-control" id="last-name" placeholder="Last Name" />
+          </div>
+          <div class="form-group">
+            <label for="phoneNumber">Phone Number:</label>
+            <input type="phone" class="form-control" id="phoneNumber" placeholder="Phone Number">
+          </div>
+          <div class="form-group">
+            <label for="Address">Address:</label>
+            <input type="address" class="form-control" id="address" placeholder="Address">
+          </div>   
+
+          <h2>Order Information</h2>
+          <p>Please write your order information, putting the print ID of the print your want, select the product you would like to purchase, and select the model of your product.</p>
+          <h3>first Product Order:</h3>
+          <div class="form-group">
+            <label for="printID">Print ID:</label>
+            <input type="printID" class="form-control" id="printID" placeholder="printID">
+          </div>   
       </form>
     </div>
+    <script>
+      $('input#birthday').val('1900-01-01');
+    </script>
   </body>
 </html>
