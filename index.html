@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css" />        
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css" />     
     <link rel="stylesheet" href="./order.css" />
     <link rel="stylesheet" href="./common.css" />
     <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
@@ -56,7 +56,7 @@
           <div class="form-group">
             <label for="Address">Address:</label>
             <input type="address" class="form-control" id="address" placeholder="Address">
-          </div>   
+          </div>
 
           <h2>Order Information</h2>
           <p>Please write your order information, putting the print ID of the print your want, select the product you would like to purchase, and select the model of your product.</p>
@@ -64,7 +64,102 @@
           <div class="form-group">
             <label for="printID">Print ID:</label>
             <input type="printID" class="form-control" id="printID" placeholder="printID">
-          </div>   
+          </div>
+          <div class="radio-group">
+            <label for="Product">Product:</label><br />
+            <label class="radio-inline">
+              <input type="radio" name="case" id="case" value="Case" />
+              Case 
+            </label>
+            <label class="radio-inline">
+              <input type="radio" name="sticker " id="sticker " value="Sticker" />
+              Sticker
+            </label>
+            <label class="radio-inline">
+              <input type="radio" name="laptopSleeve " id="laptopSleeve" value="LaptopSleeve" />
+              Laptop Sleeve  
+            </label>
+            <label class="radio-inline">
+              <input type="radio" name="mousePad " id="mousePad" value="MousePad" />
+              Mouse Pad
+            </label>
+          </div>
+          <div class="radio-group">
+            <label for="Product">Model (Only circle if buying Case, Sticker or Laptop Sleeve) : </label><br />
+            <span>Mobile:</span>
+            <label class="radio-inline">
+              <input type="radio" name="phoneType" id="iPhone6" value="iPhone6" />
+              iPhone 6 
+            </label>
+            <label class="radio-inline">
+              <input type="radio" name="phoneType" id="iPhone6Plus" value="iPhone6Plus" />
+              iPhone 6 Plus
+            </label>
+            <label class="radio-inline">
+              <input type="radio" name="phoneType" id="iPhone6S" value="iPhone6S" />
+              iPhone 6S
+            </label>
+            <label class="radio-inline">
+              <input type="radio" name="phoneType" id="iPhone6Plus" value="iPhone6SPlus" />
+              iPhone 6S Plus
+            </label>
+            <label class="radio-inline">
+              <input type="radio" name="phoneType" id="iPhone7S" value="iPhone7S" />
+              iPhone 7S
+            </label>
+            <label class="radio-inline">
+              <input type="radio" name="phoneType" id="iPhone7Plus" value="iPhone7SPlus" />
+              iPhone 7S Plus
+            </label>
+            <br />
+            <span>Pad :</span>
+            <label class="radio-inline">
+              <input type="radio" name="padType" id="iPad" value="iPad" />
+              iPad 
+            </label>
+            <label class="radio-inline">
+              <input type="radio" name="padType" id="iPadAir" value="iPadAir" />
+              iPad Air
+            </label>
+            <label class="radio-inline">
+              <input type="radio" name="padType" id="iPadAir2" value="iPadAir2" />
+              iPad Air2
+            </label>
+            <label class="radio-inline">
+              <input type="radio" name="padType" id="iPadmini3" value="iPadmini3" />
+              iPad mini3
+            </label>
+            <label class="radio-inline">
+              <input type="radio" name="padType" id="iPadmini4" value="iPadmini4" />
+              iPad mini4
+            </label>
+            <label class="radio-inline">
+              <input type="radio" name="padType" id="iPadPro12.9-inch" value="iPadPro12.9-inch" />
+              iPad Pro 12.9-inch
+            </label>
+            <label class="radio-inline">
+              <input type="radio" name="padType" id="iPadPro9.7-inch" value="iPadPro9.7-inch" />
+              iPad Pro 9.7-inch
+            </label>
+            <br />
+            <span>Laptop :</span>
+            <label class="radio-inline">
+              <input type="radio" name="LaptopType" id="MacBook12-inch" value="MacBook12-inch" />
+              MacBook 12-inch 
+            </label>
+            <label class="radio-inline">
+              <input type="radio" name="LaptopType" id="MacBook13-inch" value="MacBook13-inch" />
+              MacBook 13-inch 
+            </label>
+            <label class="radio-inline">
+              <input type="radio" name="LaptopType" id="MacBookPro13-inch" value="MacBookPro13-inch" />
+              MacBook Pro 13-inch 
+            </label>
+            <label class="radio-inline">
+              <input type="radio" name="LaptopType" id="MacBookPro15-inch" value="MacBookPro15-inch" />
+              MacBook Pro 15-inch 
+            </label>
+          </div>
       </form>
     </div>
     <script>
