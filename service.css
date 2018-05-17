@@ -1,0 +1,22 @@
+.container .seriveBanner {
+  width: 100%;
+}
+
+.serviceBox {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.serviceBox img.i1{
+  width: 400px;
+}
+
+.serviceBox img.i2{
+  width: 200px;
+}
+
+img.i3{
+  display: block;
+  margin: 30px auto;  
+}
