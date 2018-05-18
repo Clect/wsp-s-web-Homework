@@ -1,0 +1,12 @@
+.container {
+    min-height: 600px;
+}
+
+.container .aboutUsBanner {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.container h1{
+    font-size: 20px;
+}

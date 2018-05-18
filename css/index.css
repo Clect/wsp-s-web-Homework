@@ -1,0 +1,38 @@
+.container {
+    min-height: 600px;
+}
+
+.container .indexBanner {
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.container .banner {
+    position: relative;
+}
+
+.container .banner h1 {
+    position: absolute;
+    color: #fff;
+    font-size: 80px;
+    left: 500px;
+    top: 100px;
+}
+.container .banner p {
+    position: absolute;
+    font-weight: 200;
+    color: #fff;
+    font-size: 20px;
+    left: 320px;
+    top: 200px;
+}
+
+.container .imgBox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.container .imgBox img {
+    width: 400px;
+}

@@ -1,0 +1,31 @@
+
+.container h1 {
+    text-align: center;
+}
+
+.container h2,
+.container h3 {
+    font-weight: 200;
+}
+
+.container h3 {
+    text-decoration: underline;
+}
+
+.container p {
+    font-size: 14px;
+    font-weight: 200;
+}
+
+.container .form-group input{
+    width: 400px;
+}
+
+.container .radio-inline {
+    cursor: pointer;
+}
+
+.container .orderBanner {
+    width: 100%;
+    margin-bottom: 20px;
+}
