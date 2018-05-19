@@ -74,7 +74,7 @@ footer .footerFlexBox {
 }
 
 footer .footerBox .box {
-	width: 33.33%
+	width: 33.33%;
 	padding: 0 10px;
 }
 
@@ -104,4 +104,17 @@ footer .leftBox .payType {
     display: inline-block;
     vertical-align: middle;;
     height: 36px;
+}
+
+footer a {
+    color: #e0e8ed;
+}
+footer a:hover {
+    color: #e0e8ed;
+    text-decoration: none;
+}
+
+footer .centerBox a.p1 {
+    display: inline-block;
+    margin-bottom: 20px;
 }

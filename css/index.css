@@ -33,6 +33,15 @@
     justify-content: center;
 }
 
+.container .imgBox a {
+    margin-top: 30px;
+    margin-right: 30px;
+}
+
 .container .imgBox img {
     width: 400px;
+}
+
+.container .imgBox .i2 {
+    height: 500px;
 }

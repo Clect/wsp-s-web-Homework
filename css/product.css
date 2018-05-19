@@ -23,6 +23,7 @@
 }
 
 .container .product .p1 {
+    display: inline-block;
     font-size: 18px;
     font-weight: 200;
     margin-top: 20px;
