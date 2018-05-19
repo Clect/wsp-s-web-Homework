@@ -12,6 +12,14 @@ h1.name {
   min-height: 400px;
 }
 
+.artistInfo p{
+  position: absolute;
+  top: 50px;
+  left: 100px;
+  font-size: 28px;
+  font-weight: 200;
+}
+
 .artistInfo img {
   position: absolute;
   width: 300px;
