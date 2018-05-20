@@ -7,7 +7,7 @@ var data =[
     ShippingInformation: '-Only available to ship to Australia, not shipping to other countries.<br />-Free Delievery to any region in Australia if purchase amount exceed $100!<br />-Charge $8 for delievery if purchase amount under $100.'
   },{
     img: '../img/pro/2.jpg',
-    title: 'Buddy<br />By Simon Smith<br />Product ID：10001',
+    title: 'Bunny<br />By Simon Smith<br />Product ID：10002',
     Description: 'Description: <br />The pink bunny is one of the most popular design for the computer. The colour pink is favoured by most of girls and the bunny print gives life to it.',
     price: 'Price：AU$150',
     ShippingInformation: '-Only available to ship to Australia, not shipping to other countries.<br />-Free Delievery to any region in Australia if purchase amount exceed $100!<br />-Charge $8 for delievery if purchase amount under $100.'
@@ -25,7 +25,7 @@ var data =[
     ShippingInformation: '-Only available to ship to Australia, not shipping to other countries.<br />-Free Delievery to any region in Australia if purchase amount exceed $100!<br />-Charge $8 for delievery if purchase amount under $100.'
   },{
     img: '../img/pro/5.jpg',
-    title: 'Garfield By Royce Allen<br />By Simon Smith<br />Product ID：20002',
+    title: 'Garfield <br />By Royce Allen<br />Product ID：20002',
     Description: 'Description: <br />When Garfield meet The Scream<br />Fiery sky, Blue fjord, Black spider, Screaming Garfield',
     price: 'Price：AU$30',
     ShippingInformation: '-Only available to ship to Australia, not shipping to other countries.<br />-Free Delievery to any region in Australia if purchase amount exceed $100!<br />-Charge $8 for delievery if purchase amount under $100.'
